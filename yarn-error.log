@@ -1,0 +1,36 @@
+Arguments: 
+  /home/monarch/.nodenv/versions/12.16.1/bin/node /usr/share/yarn/bin/yarn.js init
+
+PATH: 
+  /home/monarch/.nodenv/versions/12.16.1/bin:/home/monarch/.nodenv/libexec:/home/monarch/.nodenv/plugins/node-build/bin:/home/monarch/.sdkman/candidates/scala/current/bin:/home/monarch/.sdkman/candidates/sbt/current/bin:/home/monarch/.sdkman/candidates/java/current/bin:/home/monarch/.sdkman/candidates/gradle/current/bin:/home/monarch/.nodenv/shims:/home/monarch/.nodenv/bin:/home/monarch/.rbenv/shims:/home/monarch/.cabal/bin:/opt/cabal/2.4/bin:/opt/ghc/8.6.3/bin:/home/monarch/.pyenv/shims:/home/monarch/.pyenv/bin:/home/monarch/Toolset/mongodb/mongodb-linux-x86_64-3.4.15/bin:/home/monarch/.cargo/bin:/home/monarch/.jenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.12.3
+
+Node version: 
+  12.16.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/usr/share/yarn/lib/cli.js:125278:13)
+      at Interface.emit (events.js:311:20)
+      at Interface._ttyWrite (readline.js:893:16)
+      at ReadStream.onkeypress (readline.js:198:10)
+      at ReadStream.emit (events.js:311:20)
+      at emitKeys (internal/readline/utils.js:438:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1160:36)
+      at ReadStream.emit (events.js:311:20)
+      at addChunk (_stream_readable.js:294:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
